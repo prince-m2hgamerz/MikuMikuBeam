@@ -283,16 +283,22 @@ function App() {
           <h1 className="mb-2 text-4xl font-bold text-pink-500">
             Miku Miku Beam
           </h1>
-          <p
-            className={`${
-              animState === 0 || animState === 3
-                ? "text-gray-600"
-                : "text-white"
-            }`}
-          >
-            Because DDoS attacks are also cute and even more so when Miku does
-            them.
-          </p>
+
+    <p
+      className={`text-s mt-1 ${
+        animState === 0 || animState === 3 ? "text-gray-400" : "text-white"
+      }`}
+    >
+      m2hgamerz's cute DDoS
+    </p>
+
+    <p
+      className={`text-sm mt-2 ${
+        animState === 0 || animState === 3 ? "text-gray-600" : "text-white/80"
+      }`}
+    >
+      Because DDoS attacks are also cute — even more so when Miku does them.
+    </p>
         </div>
 
         <div
@@ -556,7 +562,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              @Sammwy
+              @m2hgamerz
             </a>{" "}
             🎵
           </span>
